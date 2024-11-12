@@ -63,7 +63,7 @@
 9. ¿Como puedes averiguar la matriz de proyección en perspectiva ortográfica que se ha usado para proyectar la escena al último frame renderizado?.
    * Utilizando `Camera.previousViewProjectionMatrix` obtendremos la matriz de proyección utilizada en el último frame renderizado, tanto para la perspectiva como para ortográfica.
 10. ¿Cómo puedes obtener la matriz de transformación entre el sistema de coordenadas local y el mundial?.
-
+   * Utilizando la propiedad `Transform.localToWorldMatrix` sobre el `transform` del objeto (sistema de coordenadas local).
 11. Cómo puedes obtener la matriz para cambiar al sistema de referencia de vista.
 
 12. Especifica la matriz de la proyección usado en un instante de la ejecución del ejercicio 1 de la práctica 1.
