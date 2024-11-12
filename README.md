@@ -24,6 +24,8 @@
 
 3. Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura un volumen de vista que la recorte parcialmente.
 
+    * Se ha modificado el plano near, de forma que corte la esfera en la parte más cercana a la cámara, ya que, es esta forma, se ve mayor diferencia.
+
 4. Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura el volumen de vista para que la deje fuera de la vista.
 
 5. Como puedes aumentar el ángulo de la cámara. Qué efecto tiene disminuir el ángulo de la cámara.
