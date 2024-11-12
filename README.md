@@ -22,9 +22,15 @@
 
 2. Como trasladarías la cámara 2 metros en cada uno de los ejes y luego la rotas 30º alrededor del eje Y?. Rota la cámara alrededor del eje Y 30ª y desplázala 2 metros en cada uno de los ejes. ¿Obtendrías el mismo resultado en ambos casos?. Justifica el resultado
 
+    * 
+
 3. Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura un volumen de vista que la recorte parcialmente.
 
     * Se ha modificado el plano near, de forma que corte la esfera en la parte más cercana a la cámara, ya que, es esta forma, se ve mayor diferencia.
+
+    * ![Imagen 1 act 3](./img/Ejercicio3-1.PNG)
+
+    * ![Imagen 2 act 3](./img/Ejercicio3-2.PNG)
 
 4. Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura el volumen de vista para que la deje fuera de la vista.
 
