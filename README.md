@@ -51,7 +51,7 @@
 
 6. Es correcta la siguiente afirmación: Para realizar la proyección al espacio 2D, en el inspector de la cámara, cambiaremos el valor de projection, asignándole el valor de orthographic
 Depende. Toda las proyecciones que realizamos para visualizar en una pantalla son proyecciones al espacio 2D.
-Sin embargo, si nos referimos a una proyección al espacio 2D en la que los objetos están en un espacio 2D, es decir, en la misma profundidad, necesitamos usar la proyección ortográfica.
+    * Sin embargo, si nos referimos a una proyección al espacio 2D en la que los objetos están en un espacio 2D, es decir, en la misma profundidad, necesitamos usar la proyección ortográfica.
 7. Especifica las rotaciones que se han indicado en los ejercicios previos con la utilidad quaternion.
 
 8. ¿Como puedes averiguar la matriz de proyección en perspectiva que se ha usado para proyectar la escena al último frame renderizado?.
