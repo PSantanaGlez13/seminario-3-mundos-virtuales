@@ -8,7 +8,7 @@ public class Ejercicio7-1 : MonoBehaviour
     void Start()
     { 
         transform.Translate(2f, 2f, 2f);
-        transform.Rotate(Quaternion.Euler(0, 30, 0));
+        transform.rotation *= Quaternion.Euler(0, 30, 0);
     }
 
     // Update is called once per frame
