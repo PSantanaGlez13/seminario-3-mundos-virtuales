@@ -22,7 +22,11 @@
 
 2. Como trasladarías la cámara 2 metros en cada uno de los ejes y luego la rotas 30º alrededor del eje Y?. Rota la cámara alrededor del eje Y 30ª y desplázala 2 metros en cada uno de los ejes. ¿Obtendrías el mismo resultado en ambos casos?. Justifica el resultado
 
-    * 
+    * Se pueden ver los scripts utilizados en `scripts/Ejercicio2-1.cs` y `scripts/Ejercicio2-2.cs`
+    * No se obtiene el mismo resultado. Si nos fijamos en las siguientes imágenes, veremos que en el inspector las posiciones son diferentes. Esto se debe a que el orden de las operaciones sobre los objetos es importante. De manera informal, no es lo mismo girar a la derecha y luego dar dos pasos, que dar dos pasos y girar a la derecha.
+  
+    * ![Imagen 1 act 2](img/Ejercicio2-1.PNG)
+    * ![Imagen 2 act 2](img/Ejercicio2-2.PNG) 
 
 3. Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura un volumen de vista que la recorte parcialmente.
 
@@ -45,9 +49,8 @@
 7. Especifica las rotaciones que se han indicado en los ejercicios previos con la utilidad quaternion.
 
 8. ¿Como puedes averiguar la matriz de proyección en perspectiva que se ha usado para proyectar la escena al último frame renderizado?.
-
 9. ¿Como puedes averiguar la matriz de proyección en perspectiva ortográfica que se ha usado para proyectar la escena al último frame renderizado?.
-
+   * Utilizando `Camera.previousViewProjectionMatrix` obtendremos la matriz de proyección utilizada en el último frame renderizado, tanto para la perspectiva como para ortográfica.
 10. ¿Cómo puedes obtener la matriz de transformación entre el sistema de coordenadas local y el mundial?.
 
 11. Cómo puedes obtener la matriz para cambiar al sistema de referencia de vista.
