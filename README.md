@@ -81,5 +81,19 @@
 Position (3, 1, 1), Rotation (45, 0, 45)
 
 16. Investiga sobre los modelo de iluminación que aplica Unity y resume las relaciones existentes con el modelo explicado en clase.
+* Iluminación Ambiente (Ambient Light):
+En Unity, la luz ambiental (ambient light) se trata de una  una luz uniforme que afecta a todos los objetos sin importar su posición o orientación. Proporcionando iluminación base en toda la escena.
 
-17. Indica las funciones de la API de Unity más importantes respecto a la iluminación
+* Iluminación Difusa (Diffuse Lighting):
+En Unity, los materiales PBR y las luces como Directional Light y Point Light emplean este modelo para simular cómo la luz se esparce sobre las superficies, logrando efectos realistas.
+* Iluminación Especular (Specular Lighting):
+Unity incluye esta iluminación en su modelo PBR y se ajusta usando el parámetro de Smoothness en los materiales, que controla la intensidad del brillo. Este brillo depende del observador, la fuente y la posición del objeto, como en el modelo del documento.
+  
+
+18. Indica las funciones de la API de Unity más importantes respecto a la iluminación
+    
+En Unity, la API de iluminación está dividida en varias clases con múltiples funciones relevantes:
+
+   * Light Class: Permite controlar el tipo de luz (direccional, puntual, spot, área), su intensidad (Light.intensity), color (Light.color), y rango (Light.range). También se puede ajustar el ángulo de la luz spot (Light.spotAngle) y el tipo de sombras proyectadas (Light.shadows).
+
+   * RenderSettings Class: Controla la luz ambiental (RenderSettings.ambientLight), la intensidad de reflejos (RenderSettings.reflectionIntensity), y el material del cielo (RenderSettings.skybox).
