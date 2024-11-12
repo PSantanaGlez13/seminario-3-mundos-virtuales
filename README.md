@@ -43,33 +43,34 @@
 
     * ![Imagen 2 act 4](./img/Ejercicio4-2.PNG)
 
-6. Como puedes aumentar el ángulo de la cámara. Qué efecto tiene disminuir el ángulo de la cámara.
+5. Como puedes aumentar el ángulo de la cámara. Qué efecto tiene disminuir el ángulo de la cámara.
 
     * Para modificar el ángulo de la cámara se modificará el parámetro ***Field Of View (FOV)*** de la misma en el inspector mientras la cámara está seleccionada. ![Foto Ejercicio 5](./img/Ejercicio5-1.png)
 
     * Al disminuir el ***FOV*** de la cámara se realiza un "zoom", perdiendo campo de visión y acercando los objetos que quedan en el mismo.
 
-7. Es correcta la siguiente afirmación: Para realizar la proyección al espacio 2D, en el inspector de la cámara, cambiaremos el valor de projection, asignándole el valor de orthographic
+6. Es correcta la siguiente afirmación: Para realizar la proyección al espacio 2D, en el inspector de la cámara, cambiaremos el valor de projection, asignándole el valor de orthographic
 Depende. Toda las proyecciones que realizamos para visualizar en una pantalla son proyecciones al espacio 2D.
 Sin embargo, si nos referimos a una proyección al espacio 2D en la que los objetos están en un espacio 2D, es decir, en la misma profundidad, necesitamos usar la proyección ortográfica.
-9. Especifica las rotaciones que se han indicado en los ejercicios previos con la utilidad quaternion.
+7. Especifica las rotaciones que se han indicado en los ejercicios previos con la utilidad quaternion.
 
-10. ¿Como puedes averiguar la matriz de proyección en perspectiva que se ha usado para proyectar la escena al último frame renderizado?.
-11. ¿Como puedes averiguar la matriz de proyección en perspectiva ortográfica que se ha usado para proyectar la escena al último frame renderizado?.
+8. ¿Como puedes averiguar la matriz de proyección en perspectiva que se ha usado para proyectar la escena al último frame renderizado?.
    * Utilizando `Camera.previousViewProjectionMatrix` obtendremos la matriz de proyección utilizada en el último frame renderizado, tanto para la perspectiva como para ortográfica.
-11. ¿Cómo puedes obtener la matriz de transformación entre el sistema de coordenadas local y el mundial?.
+9. ¿Como puedes averiguar la matriz de proyección en perspectiva ortográfica que se ha usado para proyectar la escena al último frame renderizado?.
+   * Utilizando `Camera.previousViewProjectionMatrix` obtendremos la matriz de proyección utilizada en el último frame renderizado, tanto para la perspectiva como para ortográfica.
+10. ¿Cómo puedes obtener la matriz de transformación entre el sistema de coordenadas local y el mundial?.
 
-12. Cómo puedes obtener la matriz para cambiar al sistema de referencia de vista.
+11. Cómo puedes obtener la matriz para cambiar al sistema de referencia de vista.
 
-13. Especifica la matriz de la proyección usado en un instante de la ejecución del ejercicio 1 de la práctica 1.
+12. Especifica la matriz de la proyección usado en un instante de la ejecución del ejercicio 1 de la práctica 1.
 
-14. Especifica la matriz de modelo y vista de la escena del ejercicio 1 de la práctica 1.
+13. Especifica la matriz de modelo y vista de la escena del ejercicio 1 de la práctica 1.
 
-15. Aplica una rotación en el start de uno de los objetos de la escena y muestra la matriz de cambio al sistema de referencias mundial.
+14. Aplica una rotación en el start de uno de los objetos de la escena y muestra la matriz de cambio al sistema de referencias mundial.
 
-16. ¿Como puedes calcular las coordenadas del sistema de referencia de un objeto con las siguientes propiedades del Transform:?: 
+15. ¿Como puedes calcular las coordenadas del sistema de referencia de un objeto con las siguientes propiedades del Transform:?: 
 Position (3, 1, 1), Rotation (45, 0, 45)
 
-17. Investiga sobre los modelo de iluminación que aplica Unity y resume las relaciones existentes con el modelo explicado en clase.
+16. Investiga sobre los modelo de iluminación que aplica Unity y resume las relaciones existentes con el modelo explicado en clase.
 
-18. Indica las funciones de la API de Unity más importantes respecto a la iluminación
+17. Indica las funciones de la API de Unity más importantes respecto a la iluminación
