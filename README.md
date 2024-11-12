@@ -72,9 +72,11 @@
     * Para obtener la matriz solicitada se hará uso del siguiente script: [Script obtención de matriz de cambio de sistema de referencia de la vista](./scripts/Ejercicio11-1.cs).
 
 12. Especifica la matriz de la proyección usado en un instante de la ejecución del ejercicio 1 de la práctica 1.
-
+    * ![Ejercicio 12](img/Ejercicio12.PNG)
+    * Ver el script en `scripts/Ejercicio12`.
 13. Especifica la matriz de modelo y vista de la escena del ejercicio 1 de la práctica 1.
-
+    * ![Ejercicio 13](img/Ejercicio13.PNG)
+    * Ver el script en `scripts/Ejercicio13`.
 14. Aplica una rotación en el start de uno de los objetos de la escena y muestra la matriz de cambio al sistema de referencias mundial.
 
 15. ¿Como puedes calcular las coordenadas del sistema de referencia de un objeto con las siguientes propiedades del Transform:?: 
