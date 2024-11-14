@@ -81,7 +81,7 @@
 
 15. ¿Como puedes calcular las coordenadas del sistema de referencia de un objeto con las siguientes propiedades del Transform:?: 
 Position (3, 1, 1), Rotation (45, 0, 45)
-   * Las coordenadas del objeto en el sistema de referencia global serán las dadas = (3, 1, 1). Este caso se da únicamente si el objeto es descendiente directo de la escena.
+   * Las coordenadas del objeto en el sistema de referencia global serán las dadas = (3, 1, 1).
    * En caso de que se quieran obtener las coordenadas del objeto con respecto al sistema de referencia mundial partiendo de una posición con respecto a un sistema de referencia local (de otro objeto) habrá que usar el método `transform.TransformPoint` (usando el transform del objeto con el sistema de referencia local de interés y pasándole el punto en el sistema de referencia local que se busca transformar al sistema de referencia global).
 
 16. Investiga sobre los modelo de iluminación que aplica Unity y resume las relaciones existentes con el modelo explicado en clase.
